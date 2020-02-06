@@ -13,8 +13,9 @@
               asp-fallback-href="~/lib/bootstrap/dist/css/bootstrap.min.css"
               asp-fallback-test-class="sr-only" asp-fallback-test-property="position" asp-fallback-test-value="absolute"
               crossorigin="anonymous"
-              integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"/>
+              integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" />
     </environment>
+    <link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Montserrat:400,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="~/css/main.css" />
 </head>
 <body>
@@ -25,11 +26,9 @@
                     TopTravel
                 </div>
                 <nav class="nav">
-                    <a class="nav__link" href="#">About</a>
-                    <a class="nav__link" href="#">Service</a>
-                    <a class="nav__link" href="#">Blog</a>
-                    <a class="nav__link" href="#">Work</a>
-                    <a class="nav__link" href="#">Contant</a>
+                    <a class="nav__link" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                    <a class="nav__link" asp-area="" asp-controller="Home" asp-action="Privacy">About</a>
+                    <a class="nav__link" asp-area="" asp-controller="Tour" asp-action="Index">Tours</a>
                 </nav>
             </div>
         </div>
