@@ -1,18 +1,18 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using Microsoft.AspNetCore.Http;
+using MVCTravelAgency.Models;
+using System.ComponentModel.DataAnnotations;
 
-namespace MVCTravelAgency.Models
+namespace MVCTravelAgency.ViewModels
 {
-    public class Tour
+    public class TourCreateVM
     {
-        public int Id { get; set; }
-
         [Required]
         [MaxLength(300, ErrorMessage = "Name can't exceed 300 characters")]
         public string Name { get; set; }
 
-        public string Img { get; set; }
+        public IFormFile Img { get; set; }
 
-        public string ImgLarge { get; set; }
+        public IFormFile ImgLarge { get; set; }
 
         [Required]
         [MaxLength(1000, ErrorMessage = "Description can't exceed 1000 characters")]

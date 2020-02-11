@@ -6,6 +6,8 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using MVCTravelAgency.Entities;
+using MVCTravelAgency.Entities.Repository;
+using MVCTravelAgency.Interfaces;
 
 namespace MVCTravelAgency
 {
@@ -30,6 +32,8 @@ namespace MVCTravelAgency
 
             var connection = Configuration.GetConnectionString("DefaultConnection");
             services.AddDbContext<DBContext>(options => options.UseSqlServer(connection));
+
+            services.AddTransient<ITourRepository, TourRepository>();
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
         }
@@ -59,7 +63,7 @@ namespace MVCTravelAgency
             using (var scope = app.ApplicationServices.CreateScope())
             {
                 DBContext context = scope.ServiceProvider.GetRequiredService<DBContext>();
-                Seeder.SeedTours(context);
+                Seeder.SeedData(context);
             }
         }
     }

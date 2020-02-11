@@ -42,17 +42,30 @@ namespace MVCTravelAgency.Migrations
 
                     b.Property<int?>("CategoryId");
 
-                    b.Property<string>("Countries");
+                    b.Property<string>("Countries")
+                        .IsRequired()
+                        .HasMaxLength(300);
 
-                    b.Property<string>("DepartureDate");
+                    b.Property<string>("DepartureDate")
+                        .IsRequired();
 
-                    b.Property<string>("DepartureTown");
+                    b.Property<string>("DepartureTown")
+                        .IsRequired()
+                        .HasMaxLength(30);
+
+                    b.Property<string>("Description")
+                        .IsRequired()
+                        .HasMaxLength(1000);
 
                     b.Property<string>("Img");
 
+                    b.Property<string>("ImgLarge");
+
                     b.Property<bool>("IsNightCrossing");
 
-                    b.Property<string>("Name");
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasMaxLength(300);
 
                     b.Property<int>("Period");
 
