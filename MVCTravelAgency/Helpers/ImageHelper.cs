@@ -7,19 +7,37 @@ namespace MVCTravelAgency.Helpers
 {
     public static class ImageHelper
     {
-        public static string Create(IHostingEnvironment host, IFormFile img)
+        //Отримати повний шлях фото
+        public static string GetImagePath(IHostingEnvironment host, string imgName)
+        {
+            return Path.Combine(host.WebRootPath, "img", imgName);
+        }
+
+        //Збереження фото
+        public static string SaveImage(IHostingEnvironment host, IFormFile img)
         {
             string uniqImgName = null;
-            string imageFolderName = "img";
 
             if (img != null)
             {
-                string uploatsFolder = Path.Combine(host.WebRootPath, imageFolderName);
+                //генеруємо нове імя
                 uniqImgName = Guid.NewGuid().ToString() + "_" + img.FileName;
-                string filePath = Path.Combine(uploatsFolder, uniqImgName);
-                img.CopyTo(new FileStream(filePath, FileMode.Create));
+                //дістаємо повний шлях фото
+                string filePath = GetImagePath(host, uniqImgName);
+                //зберігаємо фото
+                using (var fileStream = new FileStream(filePath, FileMode.Create))
+                {
+                    img.CopyTo(fileStream);
+                }
             }
-            return Path.Combine(imageFolderName, uniqImgName);
+            return uniqImgName;
         }
+
+        //Видалення фото
+        public static void DeleteImage(IHostingEnvironment host, string imgName)
+        {
+            string filePath = GetImagePath(host, imgName);
+            File.Delete(filePath);
+        }     
     }
 }

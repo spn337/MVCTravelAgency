@@ -8,5 +8,7 @@ namespace MVCTravelAgency.Interfaces
         Tour GetTourById(int id);
         IEnumerable<Tour> GetAllTours();
         Tour CreateTour(Tour newTour);
+        Tour DeleteTour(Tour tour);
+        Tour EditTour(Tour newTour);
     }
 }

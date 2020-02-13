@@ -26,18 +26,15 @@
                     <a class="header__link" asp-area="" asp-controller="Home" asp-action="Index">TopTravel</a>
                 </div>
                 <nav class="nav">
-                    <a class="nav__link" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
-                    <a class="nav__link" asp-area="" asp-controller="Home" asp-action="Privacy">About</a>
-                    <a class="nav__link" asp-area="" asp-controller="Tour" asp-action="Index">Tours</a>
-                    <a class="nav__link" id ="nav__admin" asp-area="" asp-controller="Admin" asp-action="Index">Admin</a>
+                    <a class="nav__link" asp-area="" asp-controller="Tour" asp-action="Index">Тури</a>
+                    <a class="nav__link" id ="nav__admin" asp-area="" asp-controller="Admin" asp-action="Index">Адмін</a>
+                    <a class="nav__link" asp-area="" asp-controller="Home" asp-action="Privacy">Про нас</a>
                 </nav>
             </div>
         </div>
     </header>
 
     @RenderBody()
-
-
 
     <environment include="Development">
         <script src="~/lib/jquery/dist/jquery.js"></script>

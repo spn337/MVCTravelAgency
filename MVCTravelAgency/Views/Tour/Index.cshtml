@@ -23,7 +23,7 @@
                     <div class="contant__tour-item" asp-con>
                         <a class="contant__tour-link" asp-controller="Tour" asp-action="Tour" asp-route-id="@item.Id">
 
-                            <img class="contant__tour-image" src="@item.Img" alt="@item.Name"/>
+                            <img class="contant__tour-image" src="~/img/@item.Img" alt="@item.Name"/>
                             <div class="contant__tour-description">
                                 <h2 class="contant__tour-name"> @item.Name</h2>
                                 <div class="contant__tour-info">

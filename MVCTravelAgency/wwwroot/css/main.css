@@ -26,11 +26,6 @@ textarea {
 }
 
 /*Buttons*/
-.btn-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
 .btn-default {
     font-size: 24px;
@@ -38,9 +33,14 @@ textarea {
     color: #071b4e;
     padding: 15px 35px;
     box-shadow: 1px 1px 10px #808080;
+    margin: 10px 0;
 }
 
 .btn-crud {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
     font-size: 48px;
     font-weight: 700;
     color: #fff;
@@ -104,6 +104,7 @@ textarea {
     color: #fff;
     text-decoration: none;
     transition: color .2s linear;
+    text-shadow: 5px 5px 10px black;
 }
 
     .nav__link:after {
@@ -255,7 +256,7 @@ textarea {
     flex-direction: column;
     justify-content: center;
     width: 100%;
-    height: 85vh;
+    height: 90vh;
 }
 
 .tour-image__inner {
@@ -312,6 +313,15 @@ textarea {
 }
 
 /*Admin*/
+.admin-background {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    background: url(../img/back_admin.jpg) no-repeat center;
+    background-size: cover;
+}
+
 .admin__crud-buttons {
     display: flex;
     align-items: center;
@@ -321,12 +331,20 @@ textarea {
 
 
 /*Create tour*/
-.create-tour__form {
+.tour__form {
     background-color: #fff;
-    opacity: 0.95;
+    opacity: 0.92;
     border-radius: 10px;
+    margin: 100px auto;
 }
 
-    .create-tour__form * {
+    .tour__form * {
         font-size: 24px;
     }
+
+.tour__form-btn-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 30%;
+}
