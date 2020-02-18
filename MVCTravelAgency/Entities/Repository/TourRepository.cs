@@ -10,8 +10,8 @@ namespace MVCTravelAgency.Entities.Repository
 {
     public class TourRepository : ITourRepository
     {
-        private readonly DBContext context;
-        public TourRepository(DBContext context)
+        private readonly ApplicationDBContext context;
+        public TourRepository(ApplicationDBContext context)
         {
             this.context = context;
         }

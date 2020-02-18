@@ -9,9 +9,9 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace MVCTravelAgency.Migrations
 {
-    [DbContext(typeof(DBContext))]
-    [Migration("20200210115155_Add tblTowns and tblCategories")]
-    partial class AddtblTownsandtblCategories
+    [DbContext(typeof(ApplicationDBContext))]
+    [Migration("20200217110301_Add tblTours and tblCategories")]
+    partial class AddtblToursandtblCategories
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {

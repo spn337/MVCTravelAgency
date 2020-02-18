@@ -8,7 +8,7 @@ namespace MVCTravelAgency.Entities
 {
     public class Seeder
     {
-        public static void SeedData(DBContext context)
+        public static void SeedData(ApplicationDBContext context)
         {
             if (!context.Categories.Any())
             {
@@ -172,7 +172,7 @@ namespace MVCTravelAgency.Entities
             });
             #endregion          
         }
-        public static void SeedTours(DBContext context, Tour model)
+        public static void SeedTours(ApplicationDBContext context, Tour model)
         {
             var tour = context.Tours.SingleOrDefault(t => t.Name == model.Name);
             if (tour == null)

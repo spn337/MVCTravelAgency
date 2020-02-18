@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace MVCTravelAgency.Migrations
 {
-    public partial class AddtblTownsandtblCategories : Migration
+    public partial class AddtblToursandtblCategories : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {

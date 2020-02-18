@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
@@ -31,9 +32,13 @@ namespace MVCTravelAgency
             });
 
             var connection = Configuration.GetConnectionString("DefaultConnection");
-            services.AddDbContext<DBContext>(options => options.UseSqlServer(connection));
+            services.AddDbContext<ApplicationDBContext>(options => options.UseSqlServer(connection));
 
-            services.AddTransient<ITourRepository, TourRepository>();
+            //Прописуємо настройки Identity
+            services.AddIdentity<IdentityUser, IdentityRole>()
+                .AddEntityFrameworkStores<ApplicationDBContext>();
+
+            services.AddTransient<ITourRepository, TourRepository>();            
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
         }
@@ -52,6 +57,8 @@ namespace MVCTravelAgency
 
             app.UseStaticFiles();
             app.UseCookiePolicy();
+            // дозвіл на авторизацію
+            app.UseAuthentication();
 
             app.UseMvc(routes =>
             {
@@ -62,7 +69,7 @@ namespace MVCTravelAgency
 
             using (var scope = app.ApplicationServices.CreateScope())
             {
-                DBContext context = scope.ServiceProvider.GetRequiredService<DBContext>();
+                ApplicationDBContext context = scope.ServiceProvider.GetRequiredService<ApplicationDBContext>();
                 Seeder.SeedData(context);
             }
         }
