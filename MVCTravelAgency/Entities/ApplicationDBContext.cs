@@ -4,7 +4,7 @@ using MVCTravelAgency.Models;
 
 namespace MVCTravelAgency.Entities
 {
-    public class ApplicationDBContext : IdentityDbContext
+    public class ApplicationDBContext : IdentityDbContext<AppUser>
     {
         public ApplicationDBContext(DbContextOptions<ApplicationDBContext> options) : base(options)
         {

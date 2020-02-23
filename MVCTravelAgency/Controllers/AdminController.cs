@@ -1,15 +1,15 @@
-﻿using Microsoft.AspNetCore.Hosting;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using MVCTravelAgency.Helpers;
 using MVCTravelAgency.Interfaces;
 using MVCTravelAgency.Models;
 using MVCTravelAgency.ViewModels;
-using System.Collections.Generic;
-using System.Linq;
 
 namespace MVCTravelAgency.Controllers
 {
+   
     public class AdminController : Controller
     {
         private ITourRepository _tourRepository;
@@ -30,6 +30,7 @@ namespace MVCTravelAgency.Controllers
         {
             return View();
         }
+
         [HttpPost]
         public IActionResult CreateTour(TourCreateVM model)
         {
@@ -72,6 +73,7 @@ namespace MVCTravelAgency.Controllers
             }
             return Redirect("/Home/Index");
         }
+
         /////////////////////Edit
         [HttpGet]
         public ViewResult EditTour(int id)
@@ -102,6 +104,7 @@ namespace MVCTravelAgency.Controllers
             }
             return View();
         }
+
         [HttpPost]
         public IActionResult EditTour(TourEditVM model)
         {

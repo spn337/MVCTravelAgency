@@ -40,7 +40,6 @@ textarea {
     display: flex;
     justify-content: center;
     align-items: center;
-
     font-size: 48px;
     font-weight: 700;
     color: #fff;
@@ -59,6 +58,7 @@ textarea {
         .btn-crud-name:hover {
             cursor: pointer;
         }
+
 /*Header*/
 .header {
     width: 100%;
@@ -92,14 +92,11 @@ textarea {
     }
 
 /*Nav*/
-.nav {
-    font-size: 18px;
-    text-transform: uppercase;
-}
-
 .nav__link {
     display: inline;
     margin: 0 15px;
+    font-size: 18px;
+    text-transform: uppercase;
     position: relative;
     color: #fff;
     text-decoration: none;
@@ -129,6 +126,21 @@ textarea {
         .nav__link:hover:after {
             opacity: 1;
         }
+
+.nav__logout {
+    width: auto;
+    padding: 0;
+    background: none;
+    border: none;
+    color: #071b4e;
+    font-weight: 700;
+    text-shadow: 5px 5px 10px #ffffff;
+}
+
+    .nav__logout:hover {
+        text-shadow: 5px 5px 10px #071b4e;
+    }
+
 /*Intro*/
 .intro {
     display: flex;
@@ -350,6 +362,6 @@ textarea {
 }
 
 /*Account*/
-.register-form{
+.register-login-form {
     margin: 100px auto;
 }

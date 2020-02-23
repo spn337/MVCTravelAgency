@@ -22,5 +22,14 @@ namespace MVCTravelAgency.ViewModels
             ErrorMessage = "Password and confirmation password do not match.")]
         public string ConfirmPassword { get; set; }
 
+        [Required]
+        public string Country { get; set; }
+
+        [Required]
+        public string City { get; set; }
+
+        [Required]
+        public string Address { get; set; }
+
     }
 }

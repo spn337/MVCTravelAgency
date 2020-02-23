@@ -19,13 +19,6 @@ namespace MVCTravelAgency.Controllers
         [Route("Tour/Index/{id}")]
         public IActionResult Tour(int id)
         {
-            //logger.LogTrace("Trace Log");
-            //logger.LogDebug("Debug Log");
-            //logger.LogInformation("Information Log");
-            //logger.LogWarning("Warning Log");
-            //logger.LogError("Error Log");
-            //logger.LogCritical("Critical Log");
-
             var tour = _tourRepository.GetTourById(id);
 
             return View(tour);

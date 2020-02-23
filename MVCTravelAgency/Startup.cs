@@ -1,14 +1,16 @@
-﻿using Microsoft.AspNetCore.Builder;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
-using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Authorization;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using MVCTravelAgency.Entities;
 using MVCTravelAgency.Entities.Repository;
 using MVCTravelAgency.Interfaces;
+using MVCTravelAgency.Models;
 
 namespace MVCTravelAgency
 {
@@ -34,13 +36,26 @@ namespace MVCTravelAgency
             var connection = Configuration.GetConnectionString("DefaultConnection");
             services.AddDbContext<ApplicationDBContext>(options => options.UseSqlServer(connection));
 
-            //Прописуємо настройки Identity
-            services.AddIdentity<IdentityUser, IdentityRole>()
-                .AddEntityFrameworkStores<ApplicationDBContext>();
+            //Прописуємо налаштування Identity
+            //Прописуємо складність пароля
+            services.AddIdentity<AppUser, IdentityRole>(options =>
+            {
+                options.Password.RequiredLength = 9;
+                options.Password.RequiredUniqueChars = 2;
+            }).AddEntityFrameworkStores<ApplicationDBContext>();
 
-            services.AddTransient<ITourRepository, TourRepository>();            
+            services.AddTransient<ITourRepository, TourRepository>();
 
-            services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
+            //services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
+
+            //переналаштовуємо, щоб не можна було зайти неавторизованим юзерам
+            services.AddMvc(config =>
+            {
+                var policy = new AuthorizationPolicyBuilder()
+                                .RequireAuthenticatedUser()
+                                .Build();
+                config.Filters.Add(new AuthorizeFilter(policy));
+            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

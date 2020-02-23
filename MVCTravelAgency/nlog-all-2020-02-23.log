@@ -1,0 +1,494 @@
+2020-02-23 18:32:56.1529|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-02-23 18:32:57.3613|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.2.6-servicing-10079 initialized 'ApplicationDBContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2020-02-23 18:32:57.8598|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (67ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Categories] AS [c])
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END
+2020-02-23 18:32:57.9463|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (29ms) [Parameters=[@__model_Name_0='?' (Size = 300)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [t].[Id], [t].[CategoryId], [t].[Countries], [t].[DepartureDate], [t].[DepartureTown], [t].[Description], [t].[Img], [t].[ImgLarge], [t].[IsNightCrossing], [t].[Name], [t].[Period], [t].[Price], [t].[isFavorite]
+FROM [Tours] AS [t]
+WHERE [t].[Name] = @__model_Name_0
+2020-02-23 18:32:58.0276|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (19ms) [Parameters=[@__model_Name_0='?' (Size = 300)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [t].[Id], [t].[CategoryId], [t].[Countries], [t].[DepartureDate], [t].[DepartureTown], [t].[Description], [t].[Img], [t].[ImgLarge], [t].[IsNightCrossing], [t].[Name], [t].[Period], [t].[Price], [t].[isFavorite]
+FROM [Tours] AS [t]
+WHERE [t].[Name] = @__model_Name_0
+2020-02-23 18:32:58.0599|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (17ms) [Parameters=[@__model_Name_0='?' (Size = 300)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [t].[Id], [t].[CategoryId], [t].[Countries], [t].[DepartureDate], [t].[DepartureTown], [t].[Description], [t].[Img], [t].[ImgLarge], [t].[IsNightCrossing], [t].[Name], [t].[Period], [t].[Price], [t].[isFavorite]
+FROM [Tours] AS [t]
+WHERE [t].[Name] = @__model_Name_0
+2020-02-23 18:32:58.0852|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (22ms) [Parameters=[@__model_Name_0='?' (Size = 300)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [t].[Id], [t].[CategoryId], [t].[Countries], [t].[DepartureDate], [t].[DepartureTown], [t].[Description], [t].[Img], [t].[ImgLarge], [t].[IsNightCrossing], [t].[Name], [t].[Period], [t].[Price], [t].[isFavorite]
+FROM [Tours] AS [t]
+WHERE [t].[Name] = @__model_Name_0
+2020-02-23 18:32:58.1095|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (19ms) [Parameters=[@__model_Name_0='?' (Size = 300)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [t].[Id], [t].[CategoryId], [t].[Countries], [t].[DepartureDate], [t].[DepartureTown], [t].[Description], [t].[Img], [t].[ImgLarge], [t].[IsNightCrossing], [t].[Name], [t].[Period], [t].[Price], [t].[isFavorite]
+FROM [Tours] AS [t]
+WHERE [t].[Name] = @__model_Name_0
+2020-02-23 18:32:58.1348|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (20ms) [Parameters=[@__model_Name_0='?' (Size = 300)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [t].[Id], [t].[CategoryId], [t].[Countries], [t].[DepartureDate], [t].[DepartureTown], [t].[Description], [t].[Img], [t].[ImgLarge], [t].[IsNightCrossing], [t].[Name], [t].[Period], [t].[Price], [t].[isFavorite]
+FROM [Tours] AS [t]
+WHERE [t].[Name] = @__model_Name_0
+2020-02-23 18:32:58.1708|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (29ms) [Parameters=[@__model_Name_0='?' (Size = 300)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [t].[Id], [t].[CategoryId], [t].[Countries], [t].[DepartureDate], [t].[DepartureTown], [t].[Description], [t].[Img], [t].[ImgLarge], [t].[IsNightCrossing], [t].[Name], [t].[Period], [t].[Price], [t].[isFavorite]
+FROM [Tours] AS [t]
+WHERE [t].[Name] = @__model_Name_0
+2020-02-23 18:32:58.2167|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (39ms) [Parameters=[@__model_Name_0='?' (Size = 300)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [t].[Id], [t].[CategoryId], [t].[Countries], [t].[DepartureDate], [t].[DepartureTown], [t].[Description], [t].[Img], [t].[ImgLarge], [t].[IsNightCrossing], [t].[Name], [t].[Period], [t].[Price], [t].[isFavorite]
+FROM [Tours] AS [t]
+WHERE [t].[Name] = @__model_Name_0
+2020-02-23 18:32:59.2069|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:5000/  
+2020-02-23 18:32:59.3180|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.2.6-servicing-10079 initialized 'ApplicationDBContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2020-02-23 18:32:59.5549|ERROR|Microsoft.EntityFrameworkCore.Database.Command|Failed executing DbCommand (85ms) [Parameters=[@__get_Item_0='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [e].[Id], [e].[AccessFailedCount], [e].[Address], [e].[City], [e].[ConcurrencyStamp], [e].[Country], [e].[Email], [e].[EmailConfirmed], [e].[LockoutEnabled], [e].[LockoutEnd], [e].[NormalizedEmail], [e].[NormalizedUserName], [e].[PasswordHash], [e].[PhoneNumber], [e].[PhoneNumberConfirmed], [e].[SecurityStamp], [e].[TwoFactorEnabled], [e].[UserName]
+FROM [AspNetUsers] AS [e]
+WHERE [e].[Id] = @__get_Item_0
+2020-02-23 18:32:59.6544|ERROR|Microsoft.EntityFrameworkCore.Query|An exception occurred while iterating over the results of a query for context type 'MVCTravelAgency.Entities.ApplicationDBContext'.
+System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'Address'.
+Invalid column name 'Country'.
+   at System.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__122_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.ExecuteAsync(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary`2 parameterValues, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.BufferlessMoveNext(DbContext _, Boolean buffer, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.MoveNext(CancellationToken cancellationToken)
+   at System.Linq.AsyncEnumerable.FirstOrDefault_[TSource](IAsyncEnumerable`1 source, CancellationToken cancellationToken) in D:\a\1\s\Ix.NET\Source\System.Interactive.Async\First.cs:line 144
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncLinqOperatorProvider.TaskResultAsyncEnumerable`1.Enumerator.MoveNext(CancellationToken cancellationToken)
+   at System.Linq.AsyncEnumerable.SelectEnumerableAsyncIterator`2.MoveNextCore(CancellationToken cancellationToken) in D:\a\1\s\Ix.NET\Source\System.Interactive.Async\Select.cs:line 106
+   at System.Linq.AsyncEnumerable.AsyncIterator`1.MoveNext(CancellationToken cancellationToken) in D:\a\1\s\Ix.NET\Source\System.Interactive.Async\AsyncIterator.cs:line 98
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncLinqOperatorProvider.ExceptionInterceptor`1.EnumeratorExceptionInterceptor.MoveNext(CancellationToken cancellationToken)
+ClientConnectionId:50831b31-e37e-4cef-8e73-f27c09e7517c
+Error Number:207,State:1,Class:16
+2020-02-23 18:32:59.6979|ERROR|Microsoft.EntityFrameworkCore.Query|An exception occurred while iterating over the results of a query for context type 'MVCTravelAgency.Entities.ApplicationDBContext'.
+System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'Address'.
+Invalid column name 'Country'.
+   at System.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__122_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.ExecuteAsync(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary`2 parameterValues, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.BufferlessMoveNext(DbContext _, Boolean buffer, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.MoveNext(CancellationToken cancellationToken)
+   at System.Linq.AsyncEnumerable.FirstOrDefault_[TSource](IAsyncEnumerable`1 source, CancellationToken cancellationToken) in D:\a\1\s\Ix.NET\Source\System.Interactive.Async\First.cs:line 144
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncLinqOperatorProvider.TaskResultAsyncEnumerable`1.Enumerator.MoveNext(CancellationToken cancellationToken)
+   at System.Linq.AsyncEnumerable.SelectEnumerableAsyncIterator`2.MoveNextCore(CancellationToken cancellationToken) in D:\a\1\s\Ix.NET\Source\System.Interactive.Async\Select.cs:line 106
+   at System.Linq.AsyncEnumerable.AsyncIterator`1.MoveNext(CancellationToken cancellationToken) in D:\a\1\s\Ix.NET\Source\System.Interactive.Async\AsyncIterator.cs:line 98
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncLinqOperatorProvider.ExceptionInterceptor`1.EnumeratorExceptionInterceptor.MoveNext(CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.ExecuteSingletonAsyncQuery[TResult](QueryContext queryContext, Func`2 compiledQuery, IDiagnosticsLogger`1 logger, Type contextType)
+ClientConnectionId:50831b31-e37e-4cef-8e73-f27c09e7517c
+Error Number:207,State:1,Class:16
+2020-02-23 18:32:59.7671|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request.
+2020-02-23 18:32:59.9326|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:5000/robots.txt  
+2020-02-23 18:32:59.9505|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 735.1606ms 500 text/html; charset=utf-8
+2020-02-23 18:33:00.1560|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.2.6-servicing-10079 initialized 'ApplicationDBContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2020-02-23 18:33:00.2901|ERROR|Microsoft.EntityFrameworkCore.Database.Command|Failed executing DbCommand (112ms) [Parameters=[@__get_Item_0='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [e].[Id], [e].[AccessFailedCount], [e].[Address], [e].[City], [e].[ConcurrencyStamp], [e].[Country], [e].[Email], [e].[EmailConfirmed], [e].[LockoutEnabled], [e].[LockoutEnd], [e].[NormalizedEmail], [e].[NormalizedUserName], [e].[PasswordHash], [e].[PhoneNumber], [e].[PhoneNumberConfirmed], [e].[SecurityStamp], [e].[TwoFactorEnabled], [e].[UserName]
+FROM [AspNetUsers] AS [e]
+WHERE [e].[Id] = @__get_Item_0
+2020-02-23 18:33:00.3391|ERROR|Microsoft.EntityFrameworkCore.Query|An exception occurred while iterating over the results of a query for context type 'MVCTravelAgency.Entities.ApplicationDBContext'.
+System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'Address'.
+Invalid column name 'Country'.
+   at System.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__122_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.ExecuteAsync(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary`2 parameterValues, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.BufferlessMoveNext(DbContext _, Boolean buffer, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.MoveNext(CancellationToken cancellationToken)
+   at System.Linq.AsyncEnumerable.FirstOrDefault_[TSource](IAsyncEnumerable`1 source, CancellationToken cancellationToken) in D:\a\1\s\Ix.NET\Source\System.Interactive.Async\First.cs:line 144
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncLinqOperatorProvider.TaskResultAsyncEnumerable`1.Enumerator.MoveNext(CancellationToken cancellationToken)
+   at System.Linq.AsyncEnumerable.SelectEnumerableAsyncIterator`2.MoveNextCore(CancellationToken cancellationToken) in D:\a\1\s\Ix.NET\Source\System.Interactive.Async\Select.cs:line 106
+   at System.Linq.AsyncEnumerable.AsyncIterator`1.MoveNext(CancellationToken cancellationToken) in D:\a\1\s\Ix.NET\Source\System.Interactive.Async\AsyncIterator.cs:line 98
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncLinqOperatorProvider.ExceptionInterceptor`1.EnumeratorExceptionInterceptor.MoveNext(CancellationToken cancellationToken)
+ClientConnectionId:50831b31-e37e-4cef-8e73-f27c09e7517c
+Error Number:207,State:1,Class:16
+2020-02-23 18:33:00.3974|ERROR|Microsoft.EntityFrameworkCore.Query|An exception occurred while iterating over the results of a query for context type 'MVCTravelAgency.Entities.ApplicationDBContext'.
+System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'Address'.
+Invalid column name 'Country'.
+   at System.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__122_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.ExecuteAsync(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary`2 parameterValues, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.BufferlessMoveNext(DbContext _, Boolean buffer, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.MoveNext(CancellationToken cancellationToken)
+   at System.Linq.AsyncEnumerable.FirstOrDefault_[TSource](IAsyncEnumerable`1 source, CancellationToken cancellationToken) in D:\a\1\s\Ix.NET\Source\System.Interactive.Async\First.cs:line 144
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncLinqOperatorProvider.TaskResultAsyncEnumerable`1.Enumerator.MoveNext(CancellationToken cancellationToken)
+   at System.Linq.AsyncEnumerable.SelectEnumerableAsyncIterator`2.MoveNextCore(CancellationToken cancellationToken) in D:\a\1\s\Ix.NET\Source\System.Interactive.Async\Select.cs:line 106
+   at System.Linq.AsyncEnumerable.AsyncIterator`1.MoveNext(CancellationToken cancellationToken) in D:\a\1\s\Ix.NET\Source\System.Interactive.Async\AsyncIterator.cs:line 98
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncLinqOperatorProvider.ExceptionInterceptor`1.EnumeratorExceptionInterceptor.MoveNext(CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.ExecuteSingletonAsyncQuery[TResult](QueryContext queryContext, Func`2 compiledQuery, IDiagnosticsLogger`1 logger, Type contextType)
+ClientConnectionId:50831b31-e37e-4cef-8e73-f27c09e7517c
+Error Number:207,State:1,Class:16
+2020-02-23 18:33:00.4311|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request.
+2020-02-23 18:33:00.4960|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 565.8506ms 500 text/html; charset=utf-8
+2020-02-23 18:37:21.4722|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.2.6-servicing-10079 initialized 'ApplicationDBContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2020-02-23 18:40:36.3586|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.2.6-servicing-10079 initialized 'ApplicationDBContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2020-02-23 18:40:36.5744|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (6ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2020-02-23 18:40:36.5744|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2020-02-23 18:40:36.5944|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (7ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2020-02-23 18:40:36.6044|INFO|Microsoft.EntityFrameworkCore.Migrations|Applying migration '20200223163721_Extend Identity User'.
+2020-02-23 18:40:36.6316|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (8ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+ALTER TABLE [AspNetUsers] ADD [Address] nvarchar(max) NULL;
+2020-02-23 18:40:36.6351|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+ALTER TABLE [AspNetUsers] ADD [Country] nvarchar(max) NULL;
+2020-02-23 18:40:36.6351|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20200223163721_Extend Identity User', N'2.2.6-servicing-10079');
+2020-02-23 18:42:13.1913|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-02-23 18:42:14.0871|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.2.6-servicing-10079 initialized 'ApplicationDBContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2020-02-23 18:42:14.5012|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (51ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Categories] AS [c])
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END
+2020-02-23 18:42:14.6082|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (30ms) [Parameters=[@__model_Name_0='?' (Size = 300)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [t].[Id], [t].[CategoryId], [t].[Countries], [t].[DepartureDate], [t].[DepartureTown], [t].[Description], [t].[Img], [t].[ImgLarge], [t].[IsNightCrossing], [t].[Name], [t].[Period], [t].[Price], [t].[isFavorite]
+FROM [Tours] AS [t]
+WHERE [t].[Name] = @__model_Name_0
+2020-02-23 18:42:14.6908|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (16ms) [Parameters=[@__model_Name_0='?' (Size = 300)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [t].[Id], [t].[CategoryId], [t].[Countries], [t].[DepartureDate], [t].[DepartureTown], [t].[Description], [t].[Img], [t].[ImgLarge], [t].[IsNightCrossing], [t].[Name], [t].[Period], [t].[Price], [t].[isFavorite]
+FROM [Tours] AS [t]
+WHERE [t].[Name] = @__model_Name_0
+2020-02-23 18:42:14.7119|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (16ms) [Parameters=[@__model_Name_0='?' (Size = 300)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [t].[Id], [t].[CategoryId], [t].[Countries], [t].[DepartureDate], [t].[DepartureTown], [t].[Description], [t].[Img], [t].[ImgLarge], [t].[IsNightCrossing], [t].[Name], [t].[Period], [t].[Price], [t].[isFavorite]
+FROM [Tours] AS [t]
+WHERE [t].[Name] = @__model_Name_0
+2020-02-23 18:42:14.7484|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (21ms) [Parameters=[@__model_Name_0='?' (Size = 300)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [t].[Id], [t].[CategoryId], [t].[Countries], [t].[DepartureDate], [t].[DepartureTown], [t].[Description], [t].[Img], [t].[ImgLarge], [t].[IsNightCrossing], [t].[Name], [t].[Period], [t].[Price], [t].[isFavorite]
+FROM [Tours] AS [t]
+WHERE [t].[Name] = @__model_Name_0
+2020-02-23 18:42:14.7824|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (29ms) [Parameters=[@__model_Name_0='?' (Size = 300)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [t].[Id], [t].[CategoryId], [t].[Countries], [t].[DepartureDate], [t].[DepartureTown], [t].[Description], [t].[Img], [t].[ImgLarge], [t].[IsNightCrossing], [t].[Name], [t].[Period], [t].[Price], [t].[isFavorite]
+FROM [Tours] AS [t]
+WHERE [t].[Name] = @__model_Name_0
+2020-02-23 18:42:14.8129|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (24ms) [Parameters=[@__model_Name_0='?' (Size = 300)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [t].[Id], [t].[CategoryId], [t].[Countries], [t].[DepartureDate], [t].[DepartureTown], [t].[Description], [t].[Img], [t].[ImgLarge], [t].[IsNightCrossing], [t].[Name], [t].[Period], [t].[Price], [t].[isFavorite]
+FROM [Tours] AS [t]
+WHERE [t].[Name] = @__model_Name_0
+2020-02-23 18:42:14.8384|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (22ms) [Parameters=[@__model_Name_0='?' (Size = 300)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [t].[Id], [t].[CategoryId], [t].[Countries], [t].[DepartureDate], [t].[DepartureTown], [t].[Description], [t].[Img], [t].[ImgLarge], [t].[IsNightCrossing], [t].[Name], [t].[Period], [t].[Price], [t].[isFavorite]
+FROM [Tours] AS [t]
+WHERE [t].[Name] = @__model_Name_0
+2020-02-23 18:42:14.8659|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (24ms) [Parameters=[@__model_Name_0='?' (Size = 300)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [t].[Id], [t].[CategoryId], [t].[Countries], [t].[DepartureDate], [t].[DepartureTown], [t].[Description], [t].[Img], [t].[ImgLarge], [t].[IsNightCrossing], [t].[Name], [t].[Period], [t].[Price], [t].[isFavorite]
+FROM [Tours] AS [t]
+WHERE [t].[Name] = @__model_Name_0
+2020-02-23 18:42:15.8361|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:5000/  
+2020-02-23 18:42:15.9637|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.2.6-servicing-10079 initialized 'ApplicationDBContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2020-02-23 18:42:16.1680|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (109ms) [Parameters=[@__get_Item_0='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [e].[Id], [e].[AccessFailedCount], [e].[Address], [e].[City], [e].[ConcurrencyStamp], [e].[Country], [e].[Email], [e].[EmailConfirmed], [e].[LockoutEnabled], [e].[LockoutEnd], [e].[NormalizedEmail], [e].[NormalizedUserName], [e].[PasswordHash], [e].[PhoneNumber], [e].[PhoneNumberConfirmed], [e].[SecurityStamp], [e].[TwoFactorEnabled], [e].[UserName]
+FROM [AspNetUsers] AS [e]
+WHERE [e].[Id] = @__get_Item_0
+2020-02-23 18:42:16.4214|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (129ms) [Parameters=[@__user_Id_0='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+SELECT [uc].[Id], [uc].[ClaimType], [uc].[ClaimValue], [uc].[UserId]
+FROM [AspNetUserClaims] AS [uc]
+WHERE [uc].[UserId] = @__user_Id_0
+2020-02-23 18:42:16.5521|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (70ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+SELECT [role].[Name]
+FROM [AspNetUserRoles] AS [userRole]
+INNER JOIN [AspNetRoles] AS [role] ON [userRole].[RoleId] = [role].[Id]
+WHERE [userRole].[UserId] = @__userId_0
+2020-02-23 18:42:16.8173|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller MVCTravelAgency.Controllers.HomeController (MVCTravelAgency).
+2020-02-23 18:42:16.8631|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization was successful.
+2020-02-23 18:42:16.8701|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization was successful.
+2020-02-23 18:42:17.0082|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method MVCTravelAgency.Controllers.HomeController.Index (MVCTravelAgency) - Validation state: Valid
+2020-02-23 18:42:17.0233|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method MVCTravelAgency.Controllers.HomeController.Index (MVCTravelAgency), returned result Microsoft.AspNetCore.Mvc.ViewResult in 2.9046ms.
+2020-02-23 18:42:17.0694|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Index.
+2020-02-23 18:42:17.2218|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Index executed in 176.9576ms.
+2020-02-23 18:42:17.2407|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action MVCTravelAgency.Controllers.HomeController.Index (MVCTravelAgency) in 403.3974ms
+2020-02-23 18:42:17.3384|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:5000/css/main.css  
+2020-02-23 18:42:17.3758|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:5000/js/site.js?v=x59_9Wtp2gcztz9zOJcWoZ1nvdtQJEXsvMTS9v-eKh4  
+2020-02-23 18:42:17.3907|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:5000/lib/bootstrap/dist/js/bootstrap.bundle.js  
+2020-02-23 18:42:17.4020|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:5000/lib/jquery/dist/jquery.js  
+2020-02-23 18:42:17.4135|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 1531.4132ms 200 text/html; charset=utf-8
+2020-02-23 18:42:17.4347|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:5000/lib/bootstrap/dist/css/bootstrap.css  
+2020-02-23 18:42:17.4812|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The file /js/site.js was not modified
+2020-02-23 18:42:17.4923|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The file /lib/bootstrap/dist/js/bootstrap.bundle.js was not modified
+2020-02-23 18:42:17.4923|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The file /lib/jquery/dist/jquery.js was not modified
+2020-02-23 18:42:17.5135|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 164.5188ms 304 application/javascript
+2020-02-23 18:42:17.5307|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 164.6214ms 304 application/javascript
+2020-02-23 18:42:17.5723|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 170.7789ms 304 application/javascript
+2020-02-23 18:42:17.6416|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The file /lib/bootstrap/dist/css/bootstrap.css was not modified
+2020-02-23 18:42:17.6506|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The file /css/main.css was not modified
+2020-02-23 18:42:17.6990|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 231.2705ms 304 text/css
+2020-02-23 18:42:17.6990|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 323.1078ms 304 text/css
+2020-02-23 18:42:17.9250|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:5000/img/back.jpg  
+2020-02-23 18:42:17.9385|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The file /img/back.jpg was not modified
+2020-02-23 18:42:18.0071|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 20.1552ms 304 image/jpeg
+2020-02-23 18:44:00.0089|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-02-23 18:44:00.7675|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.2.6-servicing-10079 initialized 'ApplicationDBContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2020-02-23 18:44:01.0448|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (42ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Categories] AS [c])
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END
+2020-02-23 18:44:01.1140|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (21ms) [Parameters=[@__model_Name_0='?' (Size = 300)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [t].[Id], [t].[CategoryId], [t].[Countries], [t].[DepartureDate], [t].[DepartureTown], [t].[Description], [t].[Img], [t].[ImgLarge], [t].[IsNightCrossing], [t].[Name], [t].[Period], [t].[Price], [t].[isFavorite]
+FROM [Tours] AS [t]
+WHERE [t].[Name] = @__model_Name_0
+2020-02-23 18:44:01.1804|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (16ms) [Parameters=[@__model_Name_0='?' (Size = 300)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [t].[Id], [t].[CategoryId], [t].[Countries], [t].[DepartureDate], [t].[DepartureTown], [t].[Description], [t].[Img], [t].[ImgLarge], [t].[IsNightCrossing], [t].[Name], [t].[Period], [t].[Price], [t].[isFavorite]
+FROM [Tours] AS [t]
+WHERE [t].[Name] = @__model_Name_0
+2020-02-23 18:44:01.2021|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (17ms) [Parameters=[@__model_Name_0='?' (Size = 300)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [t].[Id], [t].[CategoryId], [t].[Countries], [t].[DepartureDate], [t].[DepartureTown], [t].[Description], [t].[Img], [t].[ImgLarge], [t].[IsNightCrossing], [t].[Name], [t].[Period], [t].[Price], [t].[isFavorite]
+FROM [Tours] AS [t]
+WHERE [t].[Name] = @__model_Name_0
+2020-02-23 18:44:01.2249|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (17ms) [Parameters=[@__model_Name_0='?' (Size = 300)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [t].[Id], [t].[CategoryId], [t].[Countries], [t].[DepartureDate], [t].[DepartureTown], [t].[Description], [t].[Img], [t].[ImgLarge], [t].[IsNightCrossing], [t].[Name], [t].[Period], [t].[Price], [t].[isFavorite]
+FROM [Tours] AS [t]
+WHERE [t].[Name] = @__model_Name_0
+2020-02-23 18:44:01.2505|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (22ms) [Parameters=[@__model_Name_0='?' (Size = 300)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [t].[Id], [t].[CategoryId], [t].[Countries], [t].[DepartureDate], [t].[DepartureTown], [t].[Description], [t].[Img], [t].[ImgLarge], [t].[IsNightCrossing], [t].[Name], [t].[Period], [t].[Price], [t].[isFavorite]
+FROM [Tours] AS [t]
+WHERE [t].[Name] = @__model_Name_0
+2020-02-23 18:44:01.2789|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (20ms) [Parameters=[@__model_Name_0='?' (Size = 300)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [t].[Id], [t].[CategoryId], [t].[Countries], [t].[DepartureDate], [t].[DepartureTown], [t].[Description], [t].[Img], [t].[ImgLarge], [t].[IsNightCrossing], [t].[Name], [t].[Period], [t].[Price], [t].[isFavorite]
+FROM [Tours] AS [t]
+WHERE [t].[Name] = @__model_Name_0
+2020-02-23 18:44:01.3003|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (18ms) [Parameters=[@__model_Name_0='?' (Size = 300)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [t].[Id], [t].[CategoryId], [t].[Countries], [t].[DepartureDate], [t].[DepartureTown], [t].[Description], [t].[Img], [t].[ImgLarge], [t].[IsNightCrossing], [t].[Name], [t].[Period], [t].[Price], [t].[isFavorite]
+FROM [Tours] AS [t]
+WHERE [t].[Name] = @__model_Name_0
+2020-02-23 18:44:01.3206|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (17ms) [Parameters=[@__model_Name_0='?' (Size = 300)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [t].[Id], [t].[CategoryId], [t].[Countries], [t].[DepartureDate], [t].[DepartureTown], [t].[Description], [t].[Img], [t].[ImgLarge], [t].[IsNightCrossing], [t].[Name], [t].[Period], [t].[Price], [t].[isFavorite]
+FROM [Tours] AS [t]
+WHERE [t].[Name] = @__model_Name_0
+2020-02-23 18:44:01.8895|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:5000/  
+2020-02-23 18:44:02.1605|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller MVCTravelAgency.Controllers.HomeController (MVCTravelAgency).
+2020-02-23 18:44:02.1794|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization was successful.
+2020-02-23 18:44:02.1794|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization was successful.
+2020-02-23 18:44:02.2581|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method MVCTravelAgency.Controllers.HomeController.Index (MVCTravelAgency) - Validation state: Valid
+2020-02-23 18:44:02.2581|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method MVCTravelAgency.Controllers.HomeController.Index (MVCTravelAgency), returned result Microsoft.AspNetCore.Mvc.ViewResult in 1.6026ms.
+2020-02-23 18:44:02.3196|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Index.
+2020-02-23 18:44:02.4529|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Index executed in 165.6793ms.
+2020-02-23 18:44:02.4707|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action MVCTravelAgency.Controllers.HomeController.Index (MVCTravelAgency) in 293.7571ms
+2020-02-23 18:44:02.6020|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 655.9997ms 200 text/html; charset=utf-8
+2020-02-23 18:44:05.5838|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:5000/Account/Logout application/x-www-form-urlencoded 225
+2020-02-23 18:44:05.6142|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Logout", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Logout() on controller MVCTravelAgency.Controllers.AccountController (MVCTravelAgency).
+2020-02-23 18:44:05.6196|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization was successful.
+2020-02-23 18:44:05.6795|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method MVCTravelAgency.Controllers.AccountController.Logout (MVCTravelAgency) - Validation state: Valid
+2020-02-23 18:44:05.7156|INFO|Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler|AuthenticationScheme: Identity.Application signed out.
+2020-02-23 18:44:05.7156|INFO|Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler|AuthenticationScheme: Identity.External signed out.
+2020-02-23 18:44:05.7271|INFO|Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler|AuthenticationScheme: Identity.TwoFactorUserId signed out.
+2020-02-23 18:44:05.7271|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method MVCTravelAgency.Controllers.AccountController.Logout (MVCTravelAgency), returned result Microsoft.AspNetCore.Mvc.RedirectToActionResult in 47.2115ms.
+2020-02-23 18:44:05.7271|INFO|Microsoft.AspNetCore.Mvc.RedirectToActionResult|Executing RedirectResult, redirecting to /.
+2020-02-23 18:44:05.7420|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action MVCTravelAgency.Controllers.AccountController.Logout (MVCTravelAgency) in 123.2169ms
+2020-02-23 18:44:05.7420|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 166.08ms 302 
+2020-02-23 18:44:05.7737|INFO|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HLTOFUB12ONE", Request id "0HLTOFUB12ONE:00000002": the application completed without reading the entire request body.
+2020-02-23 18:44:05.7737|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:5000/  
+2020-02-23 18:44:05.7737|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller MVCTravelAgency.Controllers.HomeController (MVCTravelAgency).
+2020-02-23 18:44:05.7905|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization failed.
+2020-02-23 18:44:05.7905|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Authorization failed for the request at filter 'Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter'.
+2020-02-23 18:44:05.8113|INFO|Microsoft.AspNetCore.Mvc.ChallengeResult|Executing ChallengeResult with authentication schemes ().
+2020-02-23 18:44:05.8197|INFO|Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler|AuthenticationScheme: Identity.Application was challenged.
+2020-02-23 18:44:05.8197|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action MVCTravelAgency.Controllers.HomeController.Index (MVCTravelAgency) in 32.1071ms
+2020-02-23 18:44:05.8197|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 48.789ms 302 
+2020-02-23 18:44:05.8378|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:5000/Account/Login?ReturnUrl=%2F  
+2020-02-23 18:44:05.8378|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller MVCTravelAgency.Controllers.AccountController (MVCTravelAgency).
+2020-02-23 18:44:05.8696|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method MVCTravelAgency.Controllers.AccountController.Login (MVCTravelAgency) - Validation state: Valid
+2020-02-23 18:44:05.8696|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method MVCTravelAgency.Controllers.AccountController.Login (MVCTravelAgency), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.6355ms.
+2020-02-23 18:44:05.8832|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Login.
+2020-02-23 18:44:06.0369|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Login executed in 133.097ms.
+2020-02-23 18:44:06.0408|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action MVCTravelAgency.Controllers.AccountController.Login (MVCTravelAgency) in 190.4533ms
+2020-02-23 18:44:06.0868|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 207.2363ms 200 text/html; charset=utf-8
+2020-02-23 18:44:09.9741|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:5000/Account/Login?ReturnUrl=%2F application/x-www-form-urlencoded 251
+2020-02-23 18:44:10.0169|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(MVCTravelAgency.ViewModels.LoginVM, System.String) on controller MVCTravelAgency.Controllers.AccountController (MVCTravelAgency).
+2020-02-23 18:44:10.0800|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method MVCTravelAgency.Controllers.AccountController.Login (MVCTravelAgency) - Validation state: Valid
+2020-02-23 18:44:10.0904|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.2.6-servicing-10079 initialized 'ApplicationDBContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2020-02-23 18:44:10.1935|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (57ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[Address], [u].[City], [u].[ConcurrencyStamp], [u].[Country], [u].[Email], [u].[EmailConfirmed], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [AspNetUsers] AS [u]
+WHERE [u].[NormalizedUserName] = @__normalizedUserName_0
+2020-02-23 18:44:10.3686|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (46ms) [Parameters=[@__user_Id_0='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+SELECT [uc].[Id], [uc].[ClaimType], [uc].[ClaimValue], [uc].[UserId]
+FROM [AspNetUserClaims] AS [uc]
+WHERE [uc].[UserId] = @__user_Id_0
+2020-02-23 18:44:10.4370|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (20ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+SELECT [role].[Name]
+FROM [AspNetUserRoles] AS [userRole]
+INNER JOIN [AspNetRoles] AS [role] ON [userRole].[RoleId] = [role].[Id]
+WHERE [userRole].[UserId] = @__userId_0
+2020-02-23 18:44:10.4507|INFO|Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler|AuthenticationScheme: Identity.Application signed in.
+2020-02-23 18:44:10.4507|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method MVCTravelAgency.Controllers.AccountController.Login (MVCTravelAgency), returned result Microsoft.AspNetCore.Mvc.LocalRedirectResult in 375.2323ms.
+2020-02-23 18:44:10.4672|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.LocalRedirectResultExecutor|Executing LocalRedirectResult, redirecting to /.
+2020-02-23 18:44:10.4672|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action MVCTravelAgency.Controllers.AccountController.Login (MVCTravelAgency) in 451.8839ms
+2020-02-23 18:44:10.4833|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 506.48ms 302 
+2020-02-23 18:44:10.4833|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:5000/  
+2020-02-23 18:44:10.4913|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller MVCTravelAgency.Controllers.HomeController (MVCTravelAgency).
+2020-02-23 18:44:10.4913|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization was successful.
+2020-02-23 18:44:10.4913|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization was successful.
+2020-02-23 18:44:10.5181|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method MVCTravelAgency.Controllers.HomeController.Index (MVCTravelAgency) - Validation state: Valid
+2020-02-23 18:44:10.5181|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method MVCTravelAgency.Controllers.HomeController.Index (MVCTravelAgency), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.0425ms.
+2020-02-23 18:44:10.5243|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Index.
+2020-02-23 18:44:10.5243|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Index executed in 3.7606ms.
+2020-02-23 18:44:10.5398|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action MVCTravelAgency.Controllers.HomeController.Index (MVCTravelAgency) in 41.8515ms
+2020-02-23 18:44:10.5398|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 56.6408ms 200 text/html; charset=utf-8
+2020-02-23 18:44:45.9001|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:5000/Tour  
+2020-02-23 18:44:45.9207|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Index", controller = "Tour"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller MVCTravelAgency.Controllers.TourController (MVCTravelAgency).
+2020-02-23 18:44:45.9207|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization was successful.
+2020-02-23 18:44:45.9592|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method MVCTravelAgency.Controllers.TourController.Index (MVCTravelAgency) - Validation state: Valid
+2020-02-23 18:44:45.9766|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.2.6-servicing-10079 initialized 'ApplicationDBContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2020-02-23 18:44:46.0300|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (35ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [t].[Id], [t].[CategoryId], [t].[Countries], [t].[DepartureDate], [t].[DepartureTown], [t].[Description], [t].[Img], [t].[ImgLarge], [t].[IsNightCrossing], [t].[Name], [t].[Period], [t].[Price], [t].[isFavorite]
+FROM [Tours] AS [t]
+2020-02-23 18:44:46.0300|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method MVCTravelAgency.Controllers.TourController.Index (MVCTravelAgency), returned result Microsoft.AspNetCore.Mvc.ViewResult in 67.943ms.
+2020-02-23 18:44:46.0417|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Index.
+2020-02-23 18:44:46.0618|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Index executed in 21.0949ms.
+2020-02-23 18:44:46.0703|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action MVCTravelAgency.Controllers.TourController.Index (MVCTravelAgency) in 146.4151ms
+2020-02-23 18:44:46.0703|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 175.2132ms 200 text/html; charset=utf-8
+2020-02-23 18:44:46.1362|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:5000/img/1.jpg  
+2020-02-23 18:44:46.1362|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:5000/img/2.jpg  
+2020-02-23 18:44:46.1654|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The file /img/2.jpg was not modified
+2020-02-23 18:44:46.1654|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The file /img/1.jpg was not modified
+2020-02-23 18:44:46.1654|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 33.4288ms 304 image/jpeg
+2020-02-23 18:44:46.1832|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 44.7622ms 304 image/jpeg
+2020-02-23 18:44:46.2663|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:5000/img/3.jpg  
+2020-02-23 18:44:46.2663|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:5000/img/6.jpg  
+2020-02-23 18:44:46.2663|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:5000/img/4.jpg  
+2020-02-23 18:44:46.2663|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:5000/img/5.jpg  
+2020-02-23 18:44:46.2963|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The file /img/3.jpg was not modified
+2020-02-23 18:44:46.2963|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The file /img/6.jpg was not modified
+2020-02-23 18:44:46.2963|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The file /img/4.jpg was not modified
+2020-02-23 18:44:46.3059|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 42.2092ms 304 image/jpeg
+2020-02-23 18:44:46.3059|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 33.5478ms 304 image/jpeg
+2020-02-23 18:44:46.3059|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The file /img/5.jpg was not modified
+2020-02-23 18:44:46.3059|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 50.4639ms 304 image/jpeg
+2020-02-23 18:44:46.3215|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:5000/img/7.jpg  
+2020-02-23 18:44:46.3215|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 55.4331ms 304 image/jpeg
+2020-02-23 18:44:46.3215|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:5000/img/8.jpg  
+2020-02-23 18:44:46.3411|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The file /img/7.jpg was not modified
+2020-02-23 18:44:46.3411|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The file /img/8.jpg was not modified
+2020-02-23 18:44:46.3572|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 30.1106ms 304 image/jpeg
+2020-02-23 18:44:46.3572|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 27.4576ms 304 image/jpeg
+2020-02-23 18:44:59.2063|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:5000/Tour/Index/1  
+2020-02-23 18:44:59.2116|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Tour", controller = "Tour"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Tour(Int32) on controller MVCTravelAgency.Controllers.TourController (MVCTravelAgency).
+2020-02-23 18:44:59.2116|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization was successful.
+2020-02-23 18:44:59.2482|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method MVCTravelAgency.Controllers.TourController.Tour (MVCTravelAgency) - Validation state: Valid
+2020-02-23 18:44:59.2482|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.2.6-servicing-10079 initialized 'ApplicationDBContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2020-02-23 18:44:59.2961|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (29ms) [Parameters=[@__get_Item_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [e].[Id], [e].[CategoryId], [e].[Countries], [e].[DepartureDate], [e].[DepartureTown], [e].[Description], [e].[Img], [e].[ImgLarge], [e].[IsNightCrossing], [e].[Name], [e].[Period], [e].[Price], [e].[isFavorite]
+FROM [Tours] AS [e]
+WHERE [e].[Id] = @__get_Item_0
+2020-02-23 18:44:59.2961|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method MVCTravelAgency.Controllers.TourController.Tour (MVCTravelAgency), returned result Microsoft.AspNetCore.Mvc.ViewResult in 48.4446ms.
+2020-02-23 18:44:59.3058|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Tour.
+2020-02-23 18:44:59.3759|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Tour executed in 71.0233ms.
+2020-02-23 18:44:59.3880|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action MVCTravelAgency.Controllers.TourController.Tour (MVCTravelAgency) in 164.2394ms
+2020-02-23 18:44:59.3880|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 184.5908ms 200 text/html; charset=utf-8
+2020-02-23 18:44:59.5515|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:5000/img/back_1.jpg  
+2020-02-23 18:44:59.5566|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The file /img/back_1.jpg was not modified
+2020-02-23 18:44:59.5566|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 9.9592ms 304 image/jpeg
+2020-02-23 18:45:09.2759|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:5000/Account/Logout application/x-www-form-urlencoded 225
+2020-02-23 18:45:09.2759|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Logout", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Logout() on controller MVCTravelAgency.Controllers.AccountController (MVCTravelAgency).
+2020-02-23 18:45:09.2759|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization was successful.
+2020-02-23 18:45:09.3154|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method MVCTravelAgency.Controllers.AccountController.Logout (MVCTravelAgency) - Validation state: Valid
+2020-02-23 18:45:09.3195|INFO|Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler|AuthenticationScheme: Identity.Application signed out.
+2020-02-23 18:45:09.3195|INFO|Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler|AuthenticationScheme: Identity.External signed out.
+2020-02-23 18:45:09.3195|INFO|Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler|AuthenticationScheme: Identity.TwoFactorUserId signed out.
+2020-02-23 18:45:09.3195|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method MVCTravelAgency.Controllers.AccountController.Logout (MVCTravelAgency), returned result Microsoft.AspNetCore.Mvc.RedirectToActionResult in 14.3669ms.
+2020-02-23 18:45:09.3417|INFO|Microsoft.AspNetCore.Mvc.RedirectToActionResult|Executing RedirectResult, redirecting to /.
+2020-02-23 18:45:09.3417|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action MVCTravelAgency.Controllers.AccountController.Logout (MVCTravelAgency) in 59.393ms
+2020-02-23 18:45:09.3517|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 74.6581ms 302 
+2020-02-23 18:45:09.3517|INFO|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HLTOFUB12ONI", Request id "0HLTOFUB12ONI:00000004": the application completed without reading the entire request body.
+2020-02-23 18:45:09.3517|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:5000/  
+2020-02-23 18:45:09.3685|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller MVCTravelAgency.Controllers.HomeController (MVCTravelAgency).
+2020-02-23 18:45:09.3685|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization failed.
+2020-02-23 18:45:09.3685|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Authorization failed for the request at filter 'Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter'.
+2020-02-23 18:45:09.3843|INFO|Microsoft.AspNetCore.Mvc.ChallengeResult|Executing ChallengeResult with authentication schemes ().
+2020-02-23 18:45:09.3843|INFO|Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler|AuthenticationScheme: Identity.Application was challenged.
+2020-02-23 18:45:09.3843|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action MVCTravelAgency.Controllers.HomeController.Index (MVCTravelAgency) in 21.1382ms
+2020-02-23 18:45:09.3843|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 32.7944ms 302 
+2020-02-23 18:45:09.4067|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:5000/Account/Login?ReturnUrl=%2F  
+2020-02-23 18:45:09.4067|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller MVCTravelAgency.Controllers.AccountController (MVCTravelAgency).
+2020-02-23 18:45:09.4318|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method MVCTravelAgency.Controllers.AccountController.Login (MVCTravelAgency) - Validation state: Valid
+2020-02-23 18:45:09.4318|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method MVCTravelAgency.Controllers.AccountController.Login (MVCTravelAgency), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.0323ms.
+2020-02-23 18:45:09.4318|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Login.
+2020-02-23 18:45:09.4544|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Login executed in 14.2479ms.
+2020-02-23 18:45:09.4662|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action MVCTravelAgency.Controllers.AccountController.Login (MVCTravelAgency) in 46.401ms
+2020-02-23 18:45:09.4662|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 65.0779ms 200 text/html; charset=utf-8
+2020-02-23 18:45:11.3253|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:5000/Account/Register  
+2020-02-23 18:45:11.3253|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Register", controller = "Account"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Register() on controller MVCTravelAgency.Controllers.AccountController (MVCTravelAgency).
+2020-02-23 18:45:11.3521|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method MVCTravelAgency.Controllers.AccountController.Register (MVCTravelAgency) - Validation state: Valid
+2020-02-23 18:45:11.3521|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method MVCTravelAgency.Controllers.AccountController.Register (MVCTravelAgency), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.2565ms.
+2020-02-23 18:45:11.3521|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Register.
+2020-02-23 18:45:11.4034|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Register executed in 41.7443ms.
+2020-02-23 18:45:11.4137|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action MVCTravelAgency.Controllers.AccountController.Register (MVCTravelAgency) in 74.1332ms
+2020-02-23 18:45:11.4137|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 93.8326ms 200 text/html; charset=utf-8
+2020-02-23 18:45:22.6062|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:5000/Account/Register application/x-www-form-urlencoded 276
+2020-02-23 18:45:22.6194|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Register", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(MVCTravelAgency.ViewModels.RegisterVM) on controller MVCTravelAgency.Controllers.AccountController (MVCTravelAgency).
+2020-02-23 18:45:22.6573|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method MVCTravelAgency.Controllers.AccountController.Register (MVCTravelAgency) - Validation state: Invalid
+2020-02-23 18:45:22.6670|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method MVCTravelAgency.Controllers.AccountController.Register (MVCTravelAgency), returned result Microsoft.AspNetCore.Mvc.ViewResult in 4.8623ms.
+2020-02-23 18:45:22.6670|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Register.
+2020-02-23 18:45:22.6880|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Register executed in 8.5774ms.
+2020-02-23 18:45:22.6880|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action MVCTravelAgency.Controllers.AccountController.Register (MVCTravelAgency) in 67.791ms
+2020-02-23 18:45:22.7055|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 93.6038ms 200 text/html; charset=utf-8
+2020-02-23 18:46:12.9803|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:5000/Account/Register application/x-www-form-urlencoded 418
+2020-02-23 18:46:12.9985|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Register", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(MVCTravelAgency.ViewModels.RegisterVM) on controller MVCTravelAgency.Controllers.AccountController (MVCTravelAgency).
+2020-02-23 18:46:13.0356|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method MVCTravelAgency.Controllers.AccountController.Register (MVCTravelAgency) - Validation state: Valid
+2020-02-23 18:46:13.0609|WARN|Microsoft.AspNetCore.Identity.UserManager|User c874fcb6-a8d2-4611-b3a4-3c4636f7fa32 password validation failed: PasswordRequiresUpper.
+2020-02-23 18:46:13.0609|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method MVCTravelAgency.Controllers.AccountController.Register (MVCTravelAgency), returned result Microsoft.AspNetCore.Mvc.ViewResult in 25.6889ms.
+2020-02-23 18:46:13.0939|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Register.
+2020-02-23 18:46:13.1044|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Register executed in 34.9403ms.
+2020-02-23 18:46:13.1044|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action MVCTravelAgency.Controllers.AccountController.Register (MVCTravelAgency) in 102.5522ms
+2020-02-23 18:46:13.1164|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 133.8052ms 200 text/html; charset=utf-8
+2020-02-23 18:46:27.6869|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:5000/Account/Register application/x-www-form-urlencoded 410
+2020-02-23 18:46:27.6945|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Register", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(MVCTravelAgency.ViewModels.RegisterVM) on controller MVCTravelAgency.Controllers.AccountController (MVCTravelAgency).
+2020-02-23 18:46:27.7293|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method MVCTravelAgency.Controllers.AccountController.Register (MVCTravelAgency) - Validation state: Valid
+2020-02-23 18:46:27.7547|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.2.6-servicing-10079 initialized 'ApplicationDBContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2020-02-23 18:46:27.8171|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (49ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[Address], [u].[City], [u].[ConcurrencyStamp], [u].[Country], [u].[Email], [u].[EmailConfirmed], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [AspNetUsers] AS [u]
+WHERE [u].[NormalizedUserName] = @__normalizedUserName_0
+2020-02-23 18:46:27.9310|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (25ms) [Parameters=[@p0='?' (Size = 450), @p1='?' (DbType = Int32), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (Size = 4000), @p5='?' (Size = 4000), @p6='?' (Size = 256), @p7='?' (DbType = Boolean), @p8='?' (DbType = Boolean), @p9='?' (DbType = DateTimeOffset), @p10='?' (Size = 256), @p11='?' (Size = 256), @p12='?' (Size = 4000), @p13='?' (Size = 4000), @p14='?' (DbType = Boolean), @p15='?' (Size = 4000), @p16='?' (DbType = Boolean), @p17='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [AspNetUsers] ([Id], [AccessFailedCount], [Address], [City], [ConcurrencyStamp], [Country], [Email], [EmailConfirmed], [LockoutEnabled], [LockoutEnd], [NormalizedEmail], [NormalizedUserName], [PasswordHash], [PhoneNumber], [PhoneNumberConfirmed], [SecurityStamp], [TwoFactorEnabled], [UserName])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15, @p16, @p17);
+2020-02-23 18:46:27.9914|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (40ms) [Parameters=[@__user_Id_0='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+SELECT [uc].[Id], [uc].[ClaimType], [uc].[ClaimValue], [uc].[UserId]
+FROM [AspNetUserClaims] AS [uc]
+WHERE [uc].[UserId] = @__user_Id_0
+2020-02-23 18:46:28.0268|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (31ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+SELECT [role].[Name]
+FROM [AspNetUserRoles] AS [userRole]
+INNER JOIN [AspNetRoles] AS [role] ON [userRole].[RoleId] = [role].[Id]
+WHERE [userRole].[UserId] = @__userId_0
+2020-02-23 18:46:28.0268|INFO|Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler|AuthenticationScheme: Identity.Application signed in.
+2020-02-23 18:46:28.0268|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method MVCTravelAgency.Controllers.AccountController.Register (MVCTravelAgency), returned result Microsoft.AspNetCore.Mvc.RedirectToActionResult in 301.9399ms.
+2020-02-23 18:46:28.0396|INFO|Microsoft.AspNetCore.Mvc.RedirectToActionResult|Executing RedirectResult, redirecting to /.
+2020-02-23 18:46:28.0396|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action MVCTravelAgency.Controllers.AccountController.Register (MVCTravelAgency) in 346.557ms
+2020-02-23 18:46:28.0396|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 362.5516ms 302 
+2020-02-23 18:46:28.0589|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:5000/  
+2020-02-23 18:46:28.0589|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller MVCTravelAgency.Controllers.HomeController (MVCTravelAgency).
+2020-02-23 18:46:28.0589|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization was successful.
+2020-02-23 18:46:28.0589|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization was successful.
+2020-02-23 18:46:28.0892|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method MVCTravelAgency.Controllers.HomeController.Index (MVCTravelAgency) - Validation state: Valid
+2020-02-23 18:46:28.0892|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method MVCTravelAgency.Controllers.HomeController.Index (MVCTravelAgency), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.0338ms.
+2020-02-23 18:46:28.0892|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Index.
+2020-02-23 18:46:28.1022|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Index executed in 4.0796ms.
+2020-02-23 18:46:28.1022|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action MVCTravelAgency.Controllers.HomeController.Index (MVCTravelAgency) in 39.9645ms
+2020-02-23 18:46:28.1190|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 54.6124ms 200 text/html; charset=utf-8
